@@ -1,7 +1,7 @@
-file_object = open('wiki_output', 'r')
+file_object = open('input', 'r')
 file = open('frequent_path', 'w')
 
-with open('wiki_output') as f:
+with open('input') as f:
     content = f.readlines()
 
 content = [x.strip() for x in content]
